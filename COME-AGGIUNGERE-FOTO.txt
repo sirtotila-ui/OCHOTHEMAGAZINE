@@ -1,0 +1,22 @@
+Come usare il sito come archivio delle tue foto
+==============================================
+
+1. Metti le tue foto nelle cartelle per sezione:
+   - photos/editoriale/
+   - photos/ritratti/
+   - photos/street/
+   - photos/reportage/
+   - photos/still-life/
+
+   Formati supportati: .jpg, .jpeg, .png, .webp, .gif
+
+2. Ordine (come Instagram): le foto più recenti (per data di modifica del file) 
+   compaiono per prime in ogni sezione. Scorrendo verso il basso vedi le più vecchie.
+
+3. Aggiorna l’archivio: dalla cartella del progetto esegui
+   node build.js
+   Poi ricarica la pagina nel browser.
+
+4. Le posizioni nel mosaico restano fisse: la prima foto della sezione ha sempre 
+   la stessa “casella”, la seconda un’altra, e così via. Aggiungendo nuove foto 
+   in cima, le altre restano nelle stesse posizioni e scorrono verso il basso.
